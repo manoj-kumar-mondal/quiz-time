@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the average of first 150 natural numbers??",
+        "options": {
+            "1": "70",
+            "2": "70.5",
+            "3": "75",
+            "4": "75.5"
+        },
+        "answer": "4"
+    },
+    {
+        "question": "0.003 × 0.02 = ?",
+        "options": {
+            "1": "0.06",
+            "2": "0.006",
+            "3": "0.0006",
+            "4": "0.00006"
+        },
+        "answer": "4"
+    },
+    {
+        "question": "What is the average of the numbers: 0, 0, 4, 10, 5, and 5 ?",
+        "options": {
+            "1": "2",
+            "2": "3",
+            "3": "4",
+            "4": "5"
+        },
+        "answer": "3"
+    },
+    {
+        "question": "What is the rate of discount if a car which price was $4,000 was sold for $3,200 ?",
+        "options": {
+            "1": "14%",
+            "2": "20%",
+            "3": "18%",
+            "4": "12%"
+        },
+        "answer": "2"
+    },
+    {
+        "question": "What is the value of x in the equation 3x – 15 – 6 = 0 ?",
+        "options": {
+            "1": "7",
+            "2": "9",
+            "3": "8",
+            "4": "21"
+        },
+        "answer": "1"
+    }
+]

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Mukta&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./scripts/index.js" defer></script>
+    <title>Quiz Time !!!</title>
+</head>
+<body>
+    <section id="body-container">
+        <img src="./assets/main.jpg" alt="main">
+    </section>
+    <header>
+        <nav id="navbar">
+            <div>
+                <a href="https://github.com/manoj-kumar-mondal/quiz-time" target="_blank">&lt; Code &gt;</a>
+            </div>
+        </nav>
+    </header>
+    <section id="content">
+        <div id="btn-startQuiz">
+            <button>Start The Quiz</button>
+        </div>
+    </section>
+
+    <template id="template-content">
+        <div id="content-box">
+            
+        </div>
+    </template>
+
+    <template id="tempalte-quiz-instruction">
+        <div id="quiz-instruction">
+            <div id="instruction-area">
+            </div>
+            <div id="btn-agree">
+                <button>I agree</button>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-quiz-box">
+        <div id="quiz-box">
+            <div id="timer-area">
+                <p>Time Left</p>
+                <div id="countdown">
+                    00:30
+                </div>
+            </div>
+            <div id="question-area">
+            </div>
+            <div id="mcq-selection-area">
+                <div class="mcq-option" id="1">
+                </div>
+                <div class="mcq-option" id="2">
+                </div>
+                <div class="mcq-option" id="3">
+                </div>
+                <div class="mcq-option" id="4">
+                </div>
+            </div>
+            <div id="action-area">
+                <button>Next</button>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-game-over">
+        <div id="game-over">
+            <div id="game-over-action">
+                <h1>Game Over</h1>
+                <button id="try-again">Try Again</button>
+            </div>
+            <div id="results">
+                <h1>Results</h1>
+                <div class="answers">
+                    <p>Correct Answer: </p>
+                    <h4 class="answer-option">21</h4>
+                </div>
+                <div class="answers">
+                    <p>Wrong Answer: </p>
+                    <h4 class="answer-option">21</h4>
+                </div>
+                <div class="answers">
+                    <p>Not Attempted Answer: </p>
+                    <h4 class="answer-option">21</h4>
+                </div>
+            </div>
+        </div>
+    </template>
+</body>
+</html>
